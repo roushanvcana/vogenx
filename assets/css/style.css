@@ -1028,12 +1028,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: #0e204d;
-  font-family: "Quicksand", sans-serif;
-  text-transform: capitalize;
-  font-weight: 700;
-  line-height: 1.3;
-  margin-bottom: 20px;
+  color: #0e204d !important;
+  font-family: "Quicksand", sans-serif !important;
+  text-transform: capitalize !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  margin-bottom: 20px !important;
 }
 
 p {
@@ -1370,7 +1370,7 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  padding: 0 15px;
+  padding:  15px !important;
   border: 0;
   border-radius: 3px;
   overflow: hidden;
@@ -1702,18 +1702,18 @@ h6 {
 }
 
 .btn__xl {
-  height: 70px;
-  line-height: 70px;
+  height: 70px !important;
+  line-height: 70px !important;
   min-width: 220px;
 }
 
 .btn__xhight {
-  height: 70px;
+  height: 70px !important;
   line-height: 68px;
 }
 
 .btn__rounded {
-  border-radius: 50px;
+  border-radius: 50px !important;
 }
 
 /* Mobile Phones and tablets */
@@ -4434,7 +4434,7 @@ input[type=radio] {
 }
 
 .slider .slide__title {
-  font-size: 75px;
+  font-size: 60px;
   line-height: 1.1;
   margin-bottom: 25px;
 }
@@ -6288,17 +6288,17 @@ input[type=radio] {
 .contact-info .boxes-wrapper {
   position: relative;
   z-index: 3;
-  margin-top: -40px;
+  margin-top: -9em;
   overflow: hidden;
   border-radius: 10px;
 }
 
 .contact-info .boxes-wrapper > [class*="col-"]:nth-of-type(1) .contact-box {
-  background-color: #21cdc0;
+  background-color:#3851a2 ;
 }
 
 .contact-info .boxes-wrapper > [class*="col-"]:nth-of-type(2) .contact-box {
-  background-color: #3851a2;
+  background-color:#21cdc0 ;
 }
 
 .contact-info .boxes-wrapper > [class*="col-"]:nth-of-type(3) .contact-box {
@@ -6307,7 +6307,7 @@ input[type=radio] {
 
 .contact-info .contact-box {
   position: relative;
-  padding: 45px;
+  padding: 45px !important;
   height: 100%;
 }
 
@@ -7703,7 +7703,7 @@ textarea.form-control {
 }
 
 .service-item .btn:not(.btn__link) {
-  height: 50px;
+  height: 60px;
 }
 
 .service-item .btn:hover {
@@ -8604,7 +8604,7 @@ textarea.form-control {
 }
 
 .work-process .cta .cta__title {
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 27px;
 }
 
@@ -8628,7 +8628,7 @@ textarea.form-control {
 
 @media (min-width: 1200px) {
   .work-process .carousel-container {
-    margin-right: -140px;
+    margin-right: 0px;
   }
   .work-process .cta .cta__title {
     padding: 0 30px;
@@ -8702,3 +8702,86 @@ textarea.form-control {
   color: #848e9f;
 }
 /*# sourceMappingURL=style.css.map */
+/*insparing stories*/
+
+.testimonials-wrap {
+  padding: 40px 0;
+}
+.heading-section {
+  text-align: center;
+}
+.sub-heading {
+  font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
+    color: #2e9ca1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.heading-section h2 {
+  font-size: 28px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.testimonial-box {
+    display: block;
+    position: relative;
+    padding: 30px 20px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .08);
+}
+.user-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+  min-width: 80px;
+  background-size: 100%;
+}
+.carousel-testimonial .item {
+  padding: 30px 10px;
+}
+.quote {
+  position: absolute;
+    top: -23px;
+    color: #2e9da1;
+    font-size: 27px;
+}
+.name {
+  margin-bottom: 0;
+    line-height: 14px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.position {
+  color: #adadad;
+  font-size: 14px;
+}
+.carousel-testimonial .owl-nav {
+  text-align: center;
+}
+.carousel-testimonial .owl-nav button.owl-next, 
+.carousel-testimonial .owl-nav button.owl-prev {
+    padding: 0 12px !important;
+}
+.carousel-testimonial .owl-nav button {
+  outline: none;
+  padding: 0;
+}
+.carousel-testimonial .owl-nav button.owl-next span, 
+.carousel-testimonial .owl-nav button.owl-prev span {
+  display: block;
+    font-size: 40px;
+    width: 25px;
+    height: 25px;
+    vertical-align: 0px;
+    line-height: 16px;
+}
+.carousel-testimonial .owl-nav button.owl-next.disabled, 
+.carousel-testimonial .owl-nav button.owl-prev.disabled {
+  opacity: 0.5;
+}

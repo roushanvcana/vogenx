@@ -20,6 +20,17 @@ $(function(){
   $("#footer").load("footer.html"); 
 });
 </script> 
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 
 <body>
@@ -41,35 +52,7 @@ $(function(){
                     <h2 class="slide__title">Welcome to VOGENX</h2>
                     <p class="slide__desc">Improving the lives of patients suffering from dysfunctions in human metabolism and rare disease. </p>
                     <a href="#" class="btn_lrn">Learn More</a><br><br>
-                    <ul class="features-list list-unstyled mb-0 d-flex flex-wrap">
-                      <li class="feature-item">
-                        <div class="feature__icon">
-                          <i class="icon-heart"></i>
-                        </div>
-                        <h2 class="feature__title">Examination</h2>
-                      </li><!-- /.feature-item-->
-                      <!-- feature item #2 -->
-                      <li class="feature-item">
-                        <div class="feature__icon">
-                          <i class="icon-medicine"></i>
-                        </div>
-                        <h2 class="feature__title">Prescription </h2>
-                      </li><!-- /.feature-item-->
-                      <!-- feature item #3 -->
-                      <li class="feature-item">
-                        <div class="feature__icon">
-                          <i class="icon-heart2"></i>
-                        </div>
-                        <h2 class="feature__title">Cardiogram</h2>
-                      </li><!-- /.feature-item-->
-                      <!-- feature item #4 -->
-                      <li class="feature-item">
-                        <div class="feature__icon">
-                          <i class="icon-blood-test"></i>
-                        </div>
-                        <h2 class="feature__title">Blood Pressure</h2>
-                      </li><!-- /.feature-item-->
-                    </ul><!-- /.features-list -->
+                  
                   </div><!-- /.slide-content -->
                 </div><!-- /.col-xl-7 -->
               </div><!-- /.row -->
@@ -84,35 +67,7 @@ $(function(){
                     <h2 class="slide__title">Welcome to VOGENX</h2>
                     <p class="slide__desc">Improving the lives of patients suffering from dysfunctions in human metabolism and rare disease. </p>
                     <a href="#" class="btn_lrn">Learn More</a><br><br>
-                    <ul class="features-list list-unstyled mb-0 d-flex flex-wrap">
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-heart"></i>
-                      </div>
-                      <h2 class="feature__title">Examination</h2>
-                    </li><!-- /.feature-item-->
-                    <!-- feature item #2 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-medicine"></i>
-                      </div>
-                      <h2 class="feature__title">Prescription </h2>
-                    </li><!-- /.feature-item-->
-                    <!-- feature item #3 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-heart2"></i>
-                      </div>
-                      <h2 class="feature__title">Cardiogram</h2>
-                    </li><!-- /.feature-item-->
-                    <!-- feature item #4 -->
-                    <li class="feature-item">
-                      <div class="feature__icon">
-                        <i class="icon-blood-test"></i>
-                      </div>
-                      <h2 class="feature__title">Blood Pressure</h2>
-                    </li><!-- /.feature-item-->
-                  </ul><!-- /.features-list -->
+                   
                 </div><!-- /.slide-content -->
               </div><!-- /.col-xl-7 -->
             </div><!-- /.row -->
@@ -127,6 +82,22 @@ $(function(){
     <section class="contact-info py-0">
       <div class="container">
         <div class="row row-no-gutter boxes-wrapper">
+         
+          <div class="col-sm-12 col-md-4">
+            <div class="contact-box d-flex">
+              <div class="contact__icon">
+                <i class="icon-health-report"></i>
+              </div><!-- /.contact__icon -->
+              <div class="contact__content">
+                <h2 class="contact__title">Doctors Timetable</h2>
+                <p class="contact__desc">Qualified doctors available six days a week, view our timetable to make an
+                  appointment.</p>
+                <a href="doctors-timetable.html" class="btn btn__white btn__outlined btn__rounded" style="height: 52px;">
+                  <span>View Timetable</span><i class="icon-arrow-right"></i>
+                </a>
+              </div><!-- /.contact__content -->
+            </div><!-- /.contact-box -->
+          </div><!-- /.col-md-4 -->
           <div class="col-sm-12 col-md-4">
             <div class="contact-box d-flex">
               <div class="contact__icon">
@@ -138,21 +109,6 @@ $(function(){
                   medical enquiry.</p>
                 <a href="tel:+201061245741" class="phone__number">
                   <i class="icon-phone"></i> <span>01061245741</span>
-                </a>
-              </div><!-- /.contact__content -->
-            </div><!-- /.contact-box -->
-          </div><!-- /.col-md-4 -->
-          <div class="col-sm-12 col-md-4">
-            <div class="contact-box d-flex">
-              <div class="contact__icon">
-                <i class="icon-health-report"></i>
-              </div><!-- /.contact__icon -->
-              <div class="contact__content">
-                <h2 class="contact__title">Doctors Timetable</h2>
-                <p class="contact__desc">Qualified doctors available six days a week, view our timetable to make an
-                  appointment.</p>
-                <a href="doctors-timetable.html" class="btn btn__white btn__outlined btn__rounded">
-                  <span>View Timetable</span><i class="icon-arrow-right"></i>
                 </a>
               </div><!-- /.contact__content -->
             </div><!-- /.contact-box -->
@@ -190,10 +146,11 @@ $(function(){
     <section class="about-layout2 pb-0">
       <div class="container">
         <div class="row">
-         
+          <h3 class="heading__title mb-22" style="text-align: center; font-size: 46px;">Transforming the lives of Patients with Post Bariatric Hypoglycemia
+          </h3> 
           <div class="col-sm-12 col-md-12 col-lg-7">
             <div class="heading-layout2">
-              <h3 class="heading__title mb-60">Transforming the lives of Patients with Post Bariatric Hypoglycemia
+              <h3 class="heading__title mb-60">
                 </h3>   
             </div><!-- /heading -->
           </div><!-- /.col-12 -->
@@ -206,7 +163,7 @@ $(function(){
             
                 </p>
                 <a href="doctors-timetable.html" class="btn btn__secondary btn__rounded mb-70">
-                  <span>Find A Doctor</span> <i class="icon-arrow-right"></i>
+                  <span style="height: 2px;">Find A Doctor</span> <i class="icon-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -219,11 +176,12 @@ $(function(){
                 <img src="assets/images/graph/graph.png" alt="member img">
               </div><!-- /.member-img -->
               <div class="member__info">
-                <p class="member__desc" style="font-size: 12px;">Post bariatric surgery patients, with and without PBH, experience pronounced increases in postprandial blood glucose and insulin compared control. Blue line: Control (healthy subjects); Green line: Asymptomatic-RYGB (Patients that have had RYGB bariatric surgery but do not have PBH; Red line: PBH-RYGB (Patients that have had RYGB bariatric surgery and have been diagnosed with PBH). Reference: Salehi M, Gastaldelli A, D'alessio DA. Altered islet function and insulin clearance cause hyperinsulinemia in gastric bypass patients with symptoms of postprandial hypoglycemia. The Journal of Clinical Endocrinology & Metabolism. 2014 Jun; 99(6): 2008-17.</p>
+               
               </div><!-- /.member-info -->
             </div><!-- /.member -->
             
           </div><!-- /.col-lg-6 -->
+          <p class="member__desc pb-40" style="font-size: 15px; text-align: center;">Post bariatric surgery patients, with and without PBH, experience pronounced increases in postprandial blood glucose and insulin compared control. Blue line: Control (healthy subjects); Green line: Asymptomatic-RYGB (Patients that have had RYGB bariatric surgery but do not have PBH; Red line: PBH-RYGB (Patients that have had RYGB bariatric surgery and have been diagnosed with PBH). Reference: Salehi M, Gastaldelli A, D'alessio DA. Altered islet function and insulin clearance cause hyperinsulinemia in gastric bypass patients with symptoms of postprandial hypoglycemia. The Journal of Clinical Endocrinology & Metabolism. 2014 Jun; 99(6): 2008-17.</p>
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.About Layout 2 -->
@@ -238,7 +196,7 @@ $(function(){
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
             <div class="heading text-center mb-60">
               <h2 class="heading__subtitle">The Best Medical And General Practice Care!</h2>
-              <h3 class="heading__title">Providing Medical Care For The Sickest In Our Community.</h3>
+              <h3 class="heading__title" style="font-size: 35px;">Providing Medical Care For The Sickest In Our Community.</h3>
             </div><!-- /.heading -->
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -310,7 +268,7 @@ $(function(){
                     <li>Cytopathology </li>
                   </ul>
                   <a href="services-single.html" class="btn btn__secondary btn__outlined btn__rounded">
-                    <span>Read More</span>
+                    <span style="height: 56px !important;"">Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
                 </div><!-- /.service__content -->
@@ -390,11 +348,11 @@ $(function(){
     <!-- ======================
       Team
     ========================= -->
-    <section class="team-layout2 pb-80">
+    <section class="team-layout2 pb-80 pt-0">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-            <div class="heading text-center mb-40">
+            <div class="heading text-center mb-20">
               <h3 class="heading__title">Meet Our Doctors</h3>
               <p class="heading__desc">Our administration and support staff all have exceptional people skills and
                 trained to assist you with all medical enquiries.
@@ -553,20 +511,21 @@ $(function(){
     
     <!--Work Process 
     ========================= -->
-    <section class="work-process work-process-carousel pt-130 pb-0 bg-overlay bg-overlay-secondary">
+    <section class="work-process work-process-carousel pt-50 pb-0 bg-overlay bg-overlay-secondary">
       <div class="bg-img"><img src="assets/images/banners/1.jpg" alt="background"></div>
       <div class="container">
         <div class="row heading-layout2">
           <div class="col-12">
-            <h2 class="heading__subtitle color-primary">Research & Development</h2>
+            <h2 class="heading__subtitle color-primary"></h2>
           </div><!-- /.col-12 -->
           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5">
+            <h2 class="heading__title color-primary" style="font-size: 34px">Research & Development</h2>
             <p class="heading__desc font-weight-bold color-gray mb-40">Vogenx is focused on the development of VGX-3235, a small molecule therapeutic targeted at Post Bariatric Hypoglycemia, a rare metabolic disease with a high unmet medical need.  VGX-3235 is a minimally absorbed inhibitor of SGLT1 being developed by Vogenx for the treatment of PBH.
               To date, VGX-3235 has been administered in over 500 subjects in 8 clinical studies.  
              </p>
           </div><!-- /.col-xl-5 -->
           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 offset-xl-1">
-            <h2 class="heading__subtitle color-primary">The Science Behind VGX-3235 </h2>
+            <h2 class="heading__title color-primary pt-0" style="font-size: 34px">The Science Behind VGX-3235 </h2>
             <p class="heading__desc font-weight-bold color-gray mb-40">After gastric bypass surgery, most subjects experience significant weight loss that is associated with improved insulin sensitivity and concomitant improvement in glucose homeostasis. However,
                some subjects (usually 1-4 years post-surgery) begin to experience PBH, characterized by a hypoglycemic event that usually occurs 1-2 hours after a meal. While the exact cellular and molecular events leading to this sudden drop in blood glucose are unclear, the hypoglycemia is preceded by a spike in blood glucose which stimulates release of a correspondingly high level of insulin from the pancreatic β-cells.  
             </p>
@@ -599,7 +558,7 @@ $(function(){
                   <div class="process__icon">
                     <i class="icon-dna"></i>
                   </div><!-- /.process__icon -->
-                  <h4 class="process__title">Review Your Family Medical History</h4>
+                  <h4 class="process__title">Review Your Medical History</h4>
                   <p class="process__desc">Regular health exams can help find all the problems, also can find it early
                     chances.</p>
                   <a href="#" class="btn btn__secondary btn__link">
@@ -623,12 +582,12 @@ $(function(){
                   </a>
                 </div><!-- /.process-item -->
                 <!-- process-item #4 -->
-                <div class="process-item">
+               <!---- <div class="process-item">
                   <span class="process__number">04</span>
                   <div class="process__icon">
                     <i class="icon-stethoscope"></i>
                   </div><!-- /.process__icon -->
-                  <h4 class="process__title">Introduce You To Highly Qualified Doctors</h4>
+                  <!---<h4 class="process__title">Introduce You To Highly Qualified Doctors</h4>
                   <p class="process__desc">Our administration and support staff have exceptional skills and trained to
                     assist you. </p>
                   <a href="#" class="btn btn__secondary btn__link">
@@ -637,12 +596,13 @@ $(function(){
                   </a>
                 </div><!-- /.process-item -->
                 <!-- process-item #5 -->
-                <div class="process-item">
+                
+               <!----- <div class="process-item">
                   <span class="process__number">05</span>
                   <div class="process__icon">
                     <i class="icon-head"></i>
                   </div><!-- /.process__icon -->
-                  <h4 class="process__title">Your custom Next process</h4>
+                  <!---<h4 class="process__title">Your custom Next process</h4>
                   <p class="process__desc">Our administration and support staff have exceptional skills to assist you.
                   </p>
                   <a href="#" class="btn btn__secondary btn__link">
@@ -662,7 +622,7 @@ $(function(){
               <img src="assets/images/icons/alert2.png" alt="alert">
             </div><!-- /.col-lg-2 -->
             <div class="col-sm-12 col-md-7 col-lg-7">
-              <h4 class="cta__title">True Healthcare For Your Family!</h4>
+              <h4 class="cta__title" style="color: #ffff !important;">True Healthcare For Your Family!</h4>
               <p class="cta__desc">Serve the community by improving the quality of life through better health. We have
                 put protocols to protect our patients and staff while continuing to provide medically necessary care.
               </p>
@@ -682,7 +642,7 @@ $(function(){
     =========================== -->
     <section class="contact-layout3 bg-overlay bg-overlay-primary-gradient pb-60">
       <div class="bg-img"><img src="assets/images/banners/3.jpg" alt="banner"></div>
-      <h2 style="text-align: center;">Contact Us</h2>>
+      <h2 style="text-align: center; font-size: 54px;">Contact Us</h2>>
       <div class="container">
         <div class="row">
         
@@ -825,111 +785,154 @@ $(function(){
 <!-- ========================= 
       Testimonials layout 2
       =========================  -->
-      <section class="testimonials-layout2 pt-130 pb-40">
+      <div class="testimonials-wrap">
         <div class="container">
-          <div class="testimonials-wrapper">
-            <h3 class="heading__title" style="text-align: center;">Inspiring Stories!</h3>
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-2">
-                <div class="heading-layout2">
-                  <h3 class="heading__title"></h3>
-                </div><!-- /.heading -->
-              </div><!-- /.col-lg-5 -->
-              <div class="col-sm-12 col-md-12 col-lg-8">
-                <div class="slider-with-navs">
-                  <!-- Testimonial #1 -->
-                  <div class="testimonial-item">
-                    <h3 class="testimonial__title">“Their doctors include highly qualified practitioners who come from a
-                      range of backgrounds and bring with them a diversity of skills and special interests. They also have
-                      registered nurses on staff who are available to triage any urgent matters, and the administration
-                      and support staff all have exceptional people skills”
-                    </h3>
-                  </div><!-- /. testimonial-item -->
-                  <!-- Testimonial #2 -->
-                  <div class="testimonial-item">
-                    <h3 class="testimonial__title">“Their doctors include highly qualified practitioners who come from a
-                      range of backgrounds and bring with them a diversity of skills and special interests. They also have
-                      registered nurses on staff who are available to triage any urgent matters, and the administration
-                      and support staff all have exceptional people skills”
-                    </h3>
-                  </div><!-- /. testimonial-item -->
-                  <!-- Testimonial #3 -->
-                  <div class="testimonial-item">
-                    <h3 class="testimonial__title">“Their doctors include highly qualified practitioners who come from a
-                      range of backgrounds and bring with them a diversity of skills and special interests. They also have
-                      registered nurses on staff who are available to triage any urgent matters, and the administration
-                      and support staff all have exceptional people skills”
-                    </h3>
-                  </div><!-- /. testimonial-item -->
-                </div><!-- /.slick-carousel -->
-                <div class="slider-nav mb-60">
-                  <div class="testimonial__meta">
-                    <div class="testimonial__thmb">
-                      <img src="assets/images/testimonials/thumbs/1.png" alt="author thumb">
-                    </div><!-- /.testimonial-thumb -->
-                    <div>
-                      <h4 class="testimonial__meta-title">Sami Wade</h4>
-                      <p class="testimonial__meta-desc">7oroof Inc</p>
-                    </div>
-                  </div><!-- /.testimonial-meta -->
-                  <div class="testimonial__meta">
-                    <div class="testimonial__thmb">
-                      <img src="assets/images/testimonials/thumbs/2.png" alt="author thumb">
-                    </div><!-- /.testimonial-thumb -->
-                    <div>
-                      <h4 class="testimonial__meta-title">Ahmed</h4>
-                      <p class="testimonial__meta-desc">Web Inc</p>
-                    </div>
-                  </div><!-- /.testimonial-meta -->
-                  <div class="testimonial__meta">
-                    <div class="testimonial__thmb">
-                      <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb">
-                    </div><!-- /.testimonial-thumb -->
-                    <div>
-                      <h4 class="testimonial__meta-title">Sonia Blake</h4>
-                      <p class="testimonial__meta-desc">Web Inc</p>
-                    </div>
-                  </div><!-- /.testimonial-meta -->
-                </div><!-- /.slider-nav -->
-              </div><!-- /.col-lg-7 -->
-              <div class="col-sm-12 col-md-12 col-lg-2"></div>
-            </div><!-- /.row -->
-          </div><!-- /.testimonials-wrapper -->
-        </div><!-- /.container -->
-      </section><!-- /.testimonials layout 2 -->
-<!-- ========================
-       gallery
-      =========================== -->
-      <section class="gallery pt-0 pb-90">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="slick-carousel"
-                data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "autoplay": true, "arrows": true, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
-                <a class="popup-gallery-item" href="assets/images/gallery/1.jpg">
-                  <img src="assets/images/gallery/1.jpg" alt="gallery img">
-                </a>
-                <a class="popup-gallery-item" href="assets/images/gallery/2.jpg">
-                  <img src="assets/images/gallery/2.jpg" alt="gallery img">
-                </a>
-                <a class="popup-gallery-item" href="assets/images/gallery/3.jpg">
-                  <img src="assets/images/gallery/3.jpg" alt="gallery img">
-                </a>
-                <a class="popup-gallery-item" href="assets/images/gallery/4.jpg">
-                  <img src="assets/images/gallery/4.jpg" alt="gallery img">
-                </a>
-                <a class="popup-gallery-item" href="assets/images/gallery/5.jpg">
-                  <img src="assets/images/gallery/5.jpg" alt="gallery img">
-                </a>
-                <a class="popup-gallery-item" href="assets/images/gallery/6.jpg">
-                  <img src="assets/images/gallery/6.jpg" alt="gallery img">
-                </a>
-              </div><!-- /.gallery-images-wrapper -->
-            </div><!-- /.col-xl-5 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.gallery 2 -->  
+              <div class="heading-section">
+                  <span class="sub-heading">Testimonials</span>
+                  <h2>Happy Clients & Feedbacks</h2>
+              </div>
+              <div class="carousel-testimonial owl-carousel">
+                  <div class="item">
+                      <div class="testimonial-box d-flex">
+                          <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/82.jpg)">
+                          </div>
+                          <div class="text pl-4">
+                              <span class="quote"><i class="fa fa-quote-left"></i></span>
+                              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <p class="name">Mark Huff</p>
+                              <span class="position">Businesswoman</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="testimonial-box d-flex">
+                          <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/83.jpg)">
+                          </div>
+                          <div class="text pl-4">
+                              <span class="quote"><i class="fa fa-quote-left"></i></span>
+                              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <p class="name">Rodel Golez</p>
+                              <span class="position">Businesswoman</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="testimonial-box d-flex">
+                          <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/84.jpg)">
+                          </div>
+                          <div class="text pl-4">
+                              <span class="quote"><i class="fa fa-quote-left"></i></span>
+                              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <p class="name">Ken Bosh</p>
+                              <span class="position">Businesswoman</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="testimonial-box d-flex">
+                          <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/85.jpg)">
+                          </div>
+                          <div class="text pl-4">
+                              <span class="quote"><i class="fa fa-quote-left"></i></span>
+                              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <p class="name">Racky Henderson</p>
+                              <span class="position">Father</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="testimonial-box d-flex">
+                          <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/86.jpg)">
+                          </div>
+                          <div class="text pl-4">
+                              <span class="quote"><i class="fa fa-quote-left"></i></span>
+                              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <p class="name">Henry Dee</p>
+                              <span class="position">Businesswoman</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="testimonial-box d-flex">
+                          <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/87.jpg)">
+                          </div>
+                          <div class="text pl-4">
+                              <span class="quote"><i class="fa fa-quote-left"></i></span>
+                              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <p class="name">Mark Huff</p>
+                              <span class="position">Businesswoman</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="testimonial-box d-flex">
+                          <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/88.jpg)">
+                          </div>
+                          <div class="text pl-4">
+                              <span class="quote"><i class="fa fa-quote-left"></i></span>
+                              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <p class="name">Rodel Golez</p>
+                              <span class="position">Businesswoman</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="testimonial-box d-flex">
+                          <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/89.jpg)">
+                          </div>
+                          <div class="text pl-4">
+                              <span class="quote"><i class="fa fa-quote-left"></i></span>
+                              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <p class="name">Ken Bosh</p>
+                              <span class="position">Businesswoman</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="testimonial-box d-flex">
+                          <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/90.jpg)">
+                          </div>
+                          <div class="text pl-4">
+                              <span class="quote"><i class="fa fa-quote-left"></i></span>
+                              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <p class="name">Racky Henderson</p>
+                              <span class="position">Father</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="testimonial-box d-flex">
+                          <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/91.jpg)">
+                          </div>
+                          <div class="text pl-4">
+                              <span class="quote"><i class="fa fa-quote-left"></i></span>
+                              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <p class="name">Henry Dee</p>
+                              <span class="position">Businesswoman</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="testimonial-box d-flex">
+                          <div class="user-img" style="background-image: url(https://randomuser.me/api/portraits/men/92.jpg)">
+                          </div>
+                          <div class="text pl-4">
+                              <span class="quote"><i class="fa fa-quote-left"></i></span>
+                              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                              <p class="name">Mark Huff</p>
+                              <span class="position">Businesswoman</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+      </div>
 
+
+
+
+
+      
   <!--Footer
   ========================== -->
   <footer class="footer">
