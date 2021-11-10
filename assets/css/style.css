@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: Georgia, serif;
   font-size: 14px;
   color: #848e9f;
   overflow-x: hidden;
@@ -165,7 +165,7 @@ textarea {
 }
 
 .font-secondary {
-  font-family: "Roboto", sans-serif;
+  font-family: Georgia, serif;
 }
 
 .lh-1 {
@@ -916,7 +916,6 @@ textarea {
 .color-heading {
   color: #0e204d !important;
 }
-
 .color-body {
   color: #848e9f !important;
 }
@@ -1029,7 +1028,7 @@ h4,
 h5,
 h6 {
   color: #0e204d !important;
-  font-family: "Quicksand", sans-serif !important;
+  font-family:Georgia, serif !important;
   text-transform: capitalize !important;
   font-weight: 700 !important;
   line-height: 1.3 !important;
@@ -1066,7 +1065,7 @@ h6 {
 }
 
 .heading__subtitle {
-  font-family: "Roboto", sans-serif;
+  font-family: Georgia, serif;
   font-size: 15px;
   color: #435ba1;
   margin-bottom: 12px;
@@ -2142,7 +2141,7 @@ input[type=radio] {
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-  font-family: "FontAwesome";
+  font-family: Georgia, serif;
   font-weight: 900;
   content: "\f105";
 }
@@ -2225,7 +2224,7 @@ input[type=radio] {
 
 .list-items li:before {
   content: "\f00c";
-  font-family: "FontAwesome";
+  font-family: Georgia, serif;
   font-weight: 900;
   position: absolute;
   top: 0;
@@ -2538,7 +2537,7 @@ input[type=radio] {
 }
 
 .slick-arrow.slick-next:before, .slick-arrow.slick-prev:before {
-  font-family: 'icomoon';
+  font-family: Georgia, serif;
   font-size: 40px;
 }
 
@@ -2826,8 +2825,7 @@ input[type=radio] {
 }
 
 .navbar .dropdown-toggle:after {
-  content: "\f107";
-  font-family: "FontAwesome";
+  font-family: Georgia, serif;
   font-weight: 900;
   border: none;
   vertical-align: middle;
@@ -2922,7 +2920,7 @@ input[type=radio] {
 }
 
 .lang-dropdown .lang-dropdown-toggle:after {
-  font-family: "FontAwesome";
+  font-family: Georgia, serif;
   font-weight: 900;
   content: "\f107";
   border: 0;
@@ -3148,7 +3146,7 @@ input[type=radio] {
 
 .miniPopup-emergency-trigger:after {
   content: "\f078";
-  font-family: "FontAwesome";
+  font-family: Georgia, serif;
   font-weight: 900;
   font-size: 11px;
   position: absolute;
@@ -3405,7 +3403,7 @@ input[type=radio] {
 }
 
 .search-popup .search-popup__form__input {
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
   font-weight: 300;
   font-size: 35px;
   z-index: 1;
@@ -3700,7 +3698,7 @@ input[type=radio] {
             transition-delay: 0.5s;
   }
   .navbar .nav__item [data-toggle="dropdown"]:after {
-    font-family: "FontAwesome";
+    font-family: Georgia, serif;
     font-weight: 900;
     position: absolute;
     right: 0;
@@ -3843,7 +3841,7 @@ input[type=radio] {
   }
   .navbar .dropdown-menu.wide-dropdown-menu .dropdown-menu-title {
     color: #0e204d;
-    font-family: "Quicksand", sans-serif;
+    font-family: Georgia, serif;
     font-weight: 700;
     font-size: 17px;
     line-height: 1;
@@ -3909,7 +3907,7 @@ input[type=radio] {
     transition: all 0.4s ease;
   }
   .navbar .dropdown-menu.mega-dropdown-menu .nav__item .nav__item-link:after {
-    font-family: "FontAwesome";
+    font-family: Georgia, serif;
     font-weight: 900;
     content: "\f111";
     position: absolute;
@@ -4022,7 +4020,7 @@ input[type=radio] {
 }
 
 .accordion-item .accordion__title {
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
   font-weight: 700;
   font-size: 18px;
   cursor: pointer;
@@ -4041,7 +4039,7 @@ input[type=radio] {
   left: 0;
   top: 4px;
   content: "\f105";
-  font-family: "FontAwesome";
+  font-family: Georgia, serif;
   font-weight: 900;
   font-size: 13px;
   text-align: center;
@@ -4174,7 +4172,7 @@ input[type=radio] {
 }
 
 .footer .footer-widget__title {
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 16px;
   text-transform: capitalize;
   margin-bottom: 30px;
@@ -4195,7 +4193,7 @@ input[type=radio] {
 
 .footer .footer-widget-contact:before {
   content: "\e916";
-  font-family: icomoon;
+  font-family: Georgia, serif;
   position: absolute;
   right: -30px;
   bottom: -15px;
@@ -4255,7 +4253,7 @@ input[type=radio] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Quicksand", sans-serif;
+          font-family: Georgia, serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 1;
@@ -4372,7 +4370,7 @@ input[type=radio] {
 }
 
 .cta-banner .cta__title {
-  font-family: "Roboto", sans-serif;
+  font-family: Georgia, serif;
   font-size: 17px;
   line-height: 1.6;
 }
@@ -4434,7 +4432,7 @@ input[type=radio] {
 }
 
 .slider .slide__title {
-  font-size: 60px;
+  font-size: 58px;
   line-height: 1.1;
   margin-bottom: 25px;
 }
@@ -4471,7 +4469,7 @@ input[type=radio] {
 }
 
 .slider .cta-banner .cta__title {
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
 }
 
 .slider .cta-banner .slick-dots {
@@ -4947,7 +4945,7 @@ input[type=radio] {
 }
 
 .features-layout3 .feature-item-custom:before {
-  font-family: icomoon;
+  font-family: Georgia, serif;
   content: "\e93f";
   position: absolute;
   right: -50px;
@@ -5250,6 +5248,7 @@ input[type=radio] {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   margin-bottom: 30px;
+  box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
 }
 
 .member:before {
@@ -5278,8 +5277,9 @@ input[type=radio] {
 }
 
 .member .member__img img {
-  -webkit-transition: all 0.9s ease;
-  transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease !important;
+  transition: all 0.9s ease !important;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%) !important;
 }
 
 .member .member__info {
@@ -5390,6 +5390,10 @@ input[type=radio] {
 }
 
 .member:hover {
+  -webkit-box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
+          box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
+}
+.member {
   -webkit-box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
           box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
 }
@@ -5534,7 +5538,7 @@ input[type=radio] {
 }
 
 .testimonials-layout1 .testimonials-wrapper:before {
-  font-family: icomoon;
+  font-family: Georgia, serif;
   content: "\e95c";
   position: absolute;
   top: -160px;
@@ -5576,7 +5580,7 @@ input[type=radio] {
 
 .testimonials-layout2 .testimonial__meta .testimonial__thmb:before,
 .testimonials-layout3 .testimonial__meta .testimonial__thmb:before {
-  font-family: icomoon;
+  font-family: Georgia, serif;
   content: "\e95c";
   position: absolute;
   top: -5px;
@@ -5637,7 +5641,7 @@ input[type=radio] {
 }
 
 .testimonials__rating .total__rate {
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
   font-size: 38px;
   font-weight: 700;
   color: #21cdc0;
@@ -5924,7 +5928,7 @@ input[type=radio] {
 }
 
 .widget-nav .widget-nav__img:before {
-  font-family: icomoon;
+  font-family: Georgia, serif;
   font-size: 10px;
   position: absolute;
   top: 50%;
@@ -5977,7 +5981,7 @@ input[type=radio] {
 }
 
 .widget-nav .widget-nav__content span {
-  font-family: "Roboto", sans-serif;
+  font-family: Georgia, serif;
   font-size: 13px;
   color: #616161;
   display: block;
@@ -6327,7 +6331,7 @@ input[type=radio] {
 .contact-info .contact-box .contact__icon,
 .contact-info .contact-box .time__list li,
 .contact-info .contact-box .contact__desc {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .contact-info .contact-box .phone__number {
@@ -6561,7 +6565,7 @@ textarea.form-control {
 }
 
 .pricing-package .package__price {
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
   font-size: 50px;
   font-weight: 600;
   color: #435ba1;
@@ -6838,7 +6842,7 @@ textarea.form-control {
       -ms-flex-align: center;
           align-items: center;
   color: #213360;
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
   font-size: 15px;
   font-weight: 700;
   text-transform: capitalize;
@@ -6888,7 +6892,7 @@ textarea.form-control {
   padding: 22px 30px;
   text-transform: capitalize;
   border-radius: 50px;
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
   color: #213360;
   background-color: #ffffff;
   -webkit-transition: all 0.4s ease;
@@ -7115,7 +7119,7 @@ textarea.form-control {
   line-height: 88px;
   border-radius: 10px;
   font-size: 17px;
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
 }
 
 .widget-reports .btn:before {
@@ -7904,7 +7908,7 @@ textarea.form-control {
 }
 
 .doctors-timetable .event .event__header {
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
   display: block;
   color: #ffffff !important;
   font-size: 15px;
@@ -7917,7 +7921,7 @@ textarea.form-control {
 }
 
 .doctors-timetable .event .doctor__name {
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
   font-size: 14px;
   font-weight: 700;
 }
@@ -8248,7 +8252,7 @@ textarea.form-control {
 }
 
 .product__meta-details li span:first-of-type {
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
   color: #0e204d;
   font-weight: 700;
   font-size: 16px;
@@ -8534,7 +8538,7 @@ textarea.form-control {
   position: absolute;
   top: 20px;
   right: 30px;
-  font-family: "Quicksand", sans-serif;
+  font-family: Georgia, serif;
   font-size: 104px;
   font-weight: 700;
   line-height: 1;
@@ -8711,7 +8715,7 @@ textarea.form-control {
   text-align: center;
 }
 .sub-heading {
-  font-family: 'Lato', sans-serif;
+  font-family: Georgia, serif;
     font-size: 12px;
     display: block;
     font-weight: 600;
@@ -8778,7 +8782,6 @@ textarea.form-control {
     font-size: 40px;
     width: 25px;
     height: 25px;
-    vertical-align: 0px;
     line-height: 16px;
 }
 .carousel-testimonial .owl-nav button.owl-next.disabled, 
