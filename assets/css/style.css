@@ -10,8 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
-  font-family: Georgia, serif;
-  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;  font-size: 14px;
   color: #848e9f;
   overflow-x: hidden;
 }
@@ -1028,8 +1027,8 @@ h4,
 h5,
 h6 {
   color: #0e204d !important;
-  font-family:Georgia, serif !important;
-  text-transform: capitalize !important;
+  font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize !important;
   font-weight: 700 !important;
   line-height: 1.3 !important;
   margin-bottom: 20px !important;
@@ -1515,6 +1514,7 @@ h6 {
 }
 
 .btn__secondary:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   color: #ffffff;
 }
 
@@ -1527,13 +1527,11 @@ h6 {
   border-color: #222222;
   background-color: #222222;
 }
-
 .btn__secondary.btn__outlined {
   color: #213360;
   background-color: transparent;
-  border: 2px solid #213360;
+  border: 1px solid #21336059;
 }
-
 .btn__secondary.btn__outlined:hover {
   color: #ffffff;
   background-color: #213360;
@@ -1559,6 +1557,7 @@ h6 {
 }
 
 .btn__white:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   color: #ffffff;
 }
 
@@ -1570,6 +1569,7 @@ h6 {
 
 .btn__white.btn__outlined:hover {
   color: #21cdc0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   background-color: #ffffff;
 }
 
@@ -1580,11 +1580,25 @@ h6 {
 .btn__white-style2:before {
   background-color: #21cdc0 !important;
 }
+div#slick-slide12 {
+  text-align: center;
+}
 
 .btn__outlined {
   background-color: transparent;
 }
+button.slick-prev.slick-arrow {
+  background-image: url(/assets/images/sliders/arrow-left.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+button.slick-next.slick-arrow {
+  background-image: url(/assets/images/sliders/arrow-right.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 65px;
+}
 .btn__link {
   background-color: transparent;
   border-color: transparent;
@@ -1593,7 +1607,7 @@ h6 {
   height: auto;
   padding: 0;
   border: 0 !important;
-  border-radius: 0;
+  border-radius: 26px;
 }
 
 .btn__link:focus, .btn__link:active {
@@ -2698,6 +2712,9 @@ input[type=radio] {
 -----------------------------*/
 .header {
   position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
 }
 
@@ -2706,7 +2723,8 @@ input[type=radio] {
   padding: 0;
   height: 70px;
   max-height: 100px;
-  background-color: #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  /* background-color: #ffffff; */
   /*  dropdown-menu  */
 }
 
@@ -3088,9 +3106,6 @@ input[type=radio] {
   height: 80px !important;
   max-height: 80px !important;
   background-color: #ffffff !important;
-  -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
-          box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
-  -webkit-animation: translateHeader 0.8s;
   animation: translateHeader 0.8s;
 }
 
@@ -4253,7 +4268,6 @@ input[type=radio] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-          font-family: Georgia, serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 1;
@@ -4536,6 +4550,7 @@ input[type=radio] {
     line-height: 50px;
   }
   .slider .slick-arrow:before {
+    display: none;
     font-size: 50px;
   }
   .slider .slick-arrow.slick-next {
@@ -4780,20 +4795,23 @@ input[type=radio] {
 ------------------------*/
 .btn_lrn {
   background: #32d1c5;
-  padding: 10px;
+  padding: 15px;
   color: #0e204d;
-  border-radius: 6px;
+  border-radius: 25px;
   font-size: 16px;
   font-weight: 500;
 }
+.btn_lrn:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
 .feature-item {
-  position: relative;
+  height: 210px;
+    position: relative;
   border-radius: 13px;
   margin-bottom: 30px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.08);
-          box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.08);
-  -webkit-transition: all 0.3s linear;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   transition: all 0.3s linear;
 }
 
@@ -4930,7 +4948,7 @@ input[type=radio] {
 }
 
 .features-layout2 .heading__icon {
-  font-size: 60px;
+  font-size: 100px;
   line-height: 1;
   color: #35fff0;
 }
@@ -5286,6 +5304,10 @@ input[type=radio] {
   padding: 35px 40px;
 }
 
+.member .member__info.ht {
+  height: 25rem;
+}
+
 .member .member__info .member__name {
   font-size: 21px;
   margin-bottom: 11px;
@@ -5385,6 +5407,7 @@ input[type=radio] {
 }
 
 .member .btn__link.btn__secondary:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   color: #ffffff !important;
   background-color: #21cdc0 !important;
 }
@@ -6290,6 +6313,7 @@ input[type=radio] {
     Contact
 ----------------------------*/
 .contact-info .boxes-wrapper {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   position: relative;
   z-index: 3;
   margin-top: -9em;
@@ -6363,8 +6387,7 @@ input[type=radio] {
   padding: 60px;
   border-radius: 20px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.1);
-          box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.1);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .contact-panel__title {
@@ -7711,6 +7734,7 @@ textarea.form-control {
 }
 
 .service-item .btn:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-color: #21cdc0;
   background-color: #21cdc0;
 }
@@ -7770,13 +7794,14 @@ textarea.form-control {
 }
 
 .services-carousel.services-layout1 .service-item {
+  background: #3fd4c814;
+  border: 1px solid #d3d3d378;
   -webkit-box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.05);
           box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.05);
 }
 
 .services-carousel.services-layout1 .service-item:hover {
-  -webkit-box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
-          box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .services-carousel.services-layout1 .slick-dots {
