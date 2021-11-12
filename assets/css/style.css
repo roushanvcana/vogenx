@@ -7794,10 +7794,10 @@ textarea.form-control {
 }
 
 .services-carousel.services-layout1 .service-item {
-  background: #3fd4c814;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  /* background: #3fd4c814; */
   border: 1px solid #d3d3d378;
-  -webkit-box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.05);
-          box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.05);
+
 }
 
 .services-carousel.services-layout1 .service-item:hover {
