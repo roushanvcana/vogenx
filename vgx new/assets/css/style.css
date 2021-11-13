@@ -993,7 +993,9 @@ button:focus {
     /* box-shadow: 0 0 15px 0 #ddd; */
     border-radius: 8px;
 }
-
+img.logo-wd {
+    max-width: 150%;
+}
 img.bg{
     box-shadow: 10px 10px #003463;
     border-radius: 8px;
